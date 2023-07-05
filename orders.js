@@ -7,4 +7,12 @@ class Order {
     }
 
 
+
+
+    totalPrice(){
+        let totalPrice = this.quantity * this.unitPrice;
+        return totalPrice;
+    }
+
+
 }
