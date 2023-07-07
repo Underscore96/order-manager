@@ -1,6 +1,7 @@
 class Employee extends Person{
-    constructor(name, surname, dob, gender, age, bestClient, totalEarning){
-        super(name,surname, dob, gender, age);
+    constructor(name, surname, dob, gender, department){
+        super(name,surname, dob, gender);
+        this.department = department;
         this.clientArray = [];
 
     }
